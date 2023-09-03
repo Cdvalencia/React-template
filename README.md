@@ -12,16 +12,16 @@ Clone this repository.
 
 ## Features
 
-React Data-Picker https://reactdatepicker.com/
-React Chart https://react-chartjs-2.js.org/examples/radar-chart
-Material React Table https://www.material-react-table.com/
-Table https://www.material-react-table.com/docs/guides/sorting
-Simple nav
-Loading Templeate
-Modal Template
-Scss Structure
-User Context
-Data Context
+- React Data-Picker https://reactdatepicker.com/
+- React Chart https://react-chartjs-2.js.org/examples/radar-chart
+- Material React Table https://www.material-react-table.com/
+- Table https://www.material-react-table.com/docs/guides/sorting
+- Simple nav
+- Loading Templeate
+- Modal Template
+- Scss Structure
+- User Context
+- Data Context
 
 
 By [Cdvalencia](https://github.com/Cdvalencia)
