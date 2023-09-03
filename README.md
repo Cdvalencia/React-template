@@ -8,7 +8,7 @@
 
 ## Build
 
-`npm run build` and build on folder /www.
+`npm run build` and build on folder `www`
 
 ## Features
 
