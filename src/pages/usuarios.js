@@ -19,7 +19,7 @@ const Usuarios = (props) => {
 
   useMemo(() => {
     console.log(DateTime.now().toLocaleString());    
-    setDateRange([new Date(DateTime.now().plus({days: -1}).toLocaleString()), new Date(DateTime.now().plus({days: 2}).toLocaleString())]);
+    setDateRange([new Date(DateTime.now().plus({days: -1}).toISODate()), new Date(DateTime.now().plus({days: 2}).toISODate())]);
   }, []);
 
   const columns = useMemo(

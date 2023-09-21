@@ -18,8 +18,8 @@ const Posts = (props) => {
   const [rowSelection, setRowSelection] = useState({});
 
   useMemo(() => {
-    console.log(DateTime.now().toLocaleString());    
-    setDateRange([new Date(DateTime.now().plus({days: -1}).toLocaleString()), new Date(DateTime.now().plus({days: 2}).toLocaleString())]);
+    console.log(DateTime.now().toLocaleString({year: "numeric",month: "2-digit",day: "2-digit"}));    
+    setDateRange([new Date(DateTime.now().plus({days: -1}).toISODate({year: "numeric",month: "2-digit",day: "2-digit"})), new Date(DateTime.now().plus({days: 2}).toISODate({year: "numeric",month: "2-digit",day: "2-digit"}))]);
   }, []);
 
   const columns = useMemo(
